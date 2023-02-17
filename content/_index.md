@@ -24,10 +24,10 @@ sections:
           description: 100%
           icon: r-project
           icon_pack: fab
-        - name: Photography
-          description: 100%
-          icon: camera-retro
-          icon_pack: fas
+      - name: Photography
+        description: 100%
+        icon: camera-retro
+        icon_pack: fas
   - block: experience
     content:
       title: Research Experience
