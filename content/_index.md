@@ -45,8 +45,8 @@ sections:
           company_url: ''
           company_logo: org-gc
           location: Chengdu, China
-          date_start: '2020-01' # 2020-01-01
-          date_end: '2022-06'
+          date_start: '2020-01-01'
+          date_end: '2022-06-01'
           description: |2-
               Responsibilities include:
 
@@ -57,8 +57,8 @@ sections:
           company_url: ''
           company_logo: org-x
           location: Chengdu, China
-          date_start: '2018-10'
-          date_end: '2019-12'
+          date_start: '2018-10-01'
+          date_end: '2019-12-01'
           description: The impact of high-speed rail on regional economy
     design:
       columns: '2'
