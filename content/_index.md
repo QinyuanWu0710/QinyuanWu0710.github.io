@@ -17,15 +17,15 @@ sections:
       title: Skills
       items:
         - name: Python, C
-          description: 
+          description: 100%
           icon: chart-line
           icon_pack: fas
       - name: R, Matlab
-          description:
+          description: 100%
           icon: r-project
           icon_pack: fab
         - name: Photography
-          description:
+          description: 100%
           icon: camera-retro
           icon_pack: fas
   - block: experience
