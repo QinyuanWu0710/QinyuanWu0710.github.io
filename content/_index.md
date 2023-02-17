@@ -20,10 +20,18 @@ sections:
           description: 100%
           icon: r-project
           icon_pack: fab
+        - name: Matlab
+          description: 100%
+          icon: fa-calculator-simple
+          icon_pack: fa-solid
         - name: Python
           description: 100%
-          icon: chart-line
-          icon_pack: fas
+          icon: fa-python
+          icon_pack: fa-brands
+        - name: c
+          description: 100%
+          icon: fa-brackets-curly
+          icon_pack: fa-solid
         - name: Photography
           description: 100%
           icon: camera-retro
