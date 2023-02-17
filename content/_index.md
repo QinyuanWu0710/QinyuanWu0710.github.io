@@ -16,11 +16,11 @@ sections:
     content:
       title: Skills
       items:
-        - name: Python, C
+        - name: Python
           description: 100%
           icon: chart-line
           icon_pack: fas
-      - name: R, Matlab
+      - name: R
           description: 100%
           icon: r-project
           icon_pack: fab
