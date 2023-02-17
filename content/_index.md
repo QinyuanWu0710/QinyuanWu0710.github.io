@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: 
 date: 2023-02-17
 type: landing
 
@@ -16,18 +16,18 @@ sections:
     content:
       title: Skills
       items:
+        - name: R
+          description: 100%
+          icon: r-project
+          icon_pack: fab
         - name: Python
           description: 100%
           icon: chart-line
           icon_pack: fas
-      - name: R
+        - name: Photography
           description: 100%
-          icon: r-project
-          icon_pack: fab
-      - name: Photography
-        description: 100%
-        icon: camera-retro
-        icon_pack: fas
+          icon: camera-retro
+          icon_pack: fas
   - block: experience
     content:
       title: Research Experience
