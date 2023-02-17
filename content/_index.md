@@ -17,15 +17,15 @@ sections:
       title: Skills
       items:
         - name: Python, C
-          #description: 100%
+          description: 
           icon: chart-line
           icon_pack: fas
       - name: R, Matlab
-          #description: 90%
+          description:
           icon: r-project
           icon_pack: fab
         - name: Photography
-          #description: 10%
+          description:
           icon: camera-retro
           icon_pack: fas
   - block: experience
@@ -221,11 +221,9 @@ sections:
         postcode: '66123'
         country: Germany
         country_code: DE
-      #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      #office_hours:
-      #  - 'Monday 10:00 to 13:00'
-      #  - 'Wednesday 09:00 to 10:00'
-      #contact_links:
+      directions: 
+      office_hours:
+      contact_links:
       #  - icon: twitter
       #    icon_pack: fab
       #    name: DM Me
