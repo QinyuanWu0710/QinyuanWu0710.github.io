@@ -18,7 +18,7 @@ role: Ph.D. student at CS@Max Plank
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Max Plank Institute for Software Systems
+  - name: Max Plank Institute for Software Systems (MPI-SWS)
     url: https://www.mpi-sws.org/
 
 # Short bio (displayed in user profile at end of posts)
@@ -26,46 +26,43 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Machine Learning Theory
+  - Human-centered AI
+  - Uncertainty in AI
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Ph.D. in Computer Science
+      institution: Max Plank Institute for Software Systems
+      year: 2022 Oct - present
+    - course: BSc in Mathematics-Physics Fundamental Science (Honor Program)
+      institution: University of Electronic Science and Technology of China (UESTC)
+      year: 2022 June
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+#  - icon: envelope
+#    icon_pack: fas
+#    link: '/#contact'
+#  - icon: twitter
+#    icon_pack: fab
+#    link: https://twitter.com/GeorgeCushen
+#    label: Follow me on Twitter
+#    display:
+#      header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=TFf6P8kAAAAJ&hl=en
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://github.com/QinyuanWu0710
+#  - icon: linkedin
+#    icon_pack: fab
+#    link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -74,11 +71,11 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'qwu AT mpi-sws DOT org'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Qinyuan Wu is a Ph.D. student at MPI-SWS. Her advisor is Prof. Krishna P. Gummadi. Her research interests include   - Machine Learning Theory, Human-centered AI and Uncertainty in AI. She got her bachelar's degree in University of Electronic Science and Technology of China (UESTC).
 {style="text-align: justify;"}
