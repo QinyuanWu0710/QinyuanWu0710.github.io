@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=https://www.mpi-sws.org/</a> MPI-SWS
 
 profile:
   align: right
@@ -13,8 +12,8 @@ profile:
     <p>Campus E1 5</p>
     <p>66125, Saarbruecken, Germany </p>
 
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
 latest_posts: false
 social: true # includes social icons at the bottom of the page
 
@@ -24,6 +23,7 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I am a second-year PhD student at <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and <a href="https://www.mpi-sws.org/">Max Planck Institute for Software System (MPI-SWS)</a>, under the guidance of <a href="https://people.mpi-sws.org/~gummadi/">Krishna Gummadi</a>. My research focuses on understanding the inner workings of deep learning systems and establishing trustworthy AI systems. Currently, I am investigating methods for estimating, injecting, and retrieving latent knowledge in Large Language Models (LLMs).
+I am a second-year PhD student at <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and <a href="https://www.mpi-sws.org/">Max Planck Institute for Software System (MPI-SWS)</a>, under the guidance of <a href="https://people.mpi-sws.org/~gummadi/">Prof. Krishna Gummadi</a>. I am also fortunate to closely collaborate with and be advised by <a href="https://cs-people.bu.edu/evimaria/">Prof. Evimaria Terzi</a> in Boston University. 
+My research focuses on understanding the inner workings of deep learning models and establishing trustworthy AI systems. Currently, I am investigating methods for estimating and understanding latent knowledge in Large Language Models (LLMs).
 
-Prior to joining MPI-SWS, I earned my bachelor's degree in mathematics-physics from the Yingcai Honors College at the University of Electronic Science and Technology of China (UESTC).
+Prior to joining MPI-SWS, I earned my bachelor's degree in mathematics-physics fundimental science from the <a href="https://www.yingcai.uestc.edu.cn//">Yingcai Honors College</a> at the <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China (UESTC)</a>, here I was advised by <a href="https://en.uestc.edu.cn/info/1074/3243.htm">Prof. Yong Deng</a>.
