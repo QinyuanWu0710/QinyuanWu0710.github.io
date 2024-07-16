@@ -2,36 +2,29 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Qinyuan Wu
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Max Planck Institute for Software Systems & University of Saarland, Saarbrücken, Germany
+      year: 2022-present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advisor: Krishna Gummadi
+
+    - title: Bechelor of Science
+      institution: University of Electronic Science and Technology of China, Chengdu, China
+      year: 2018-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Major: Mathematics-Physics Fundimental Science
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
+    - title: Research Assistant 
       institution: Institute for Advanced Study, Princeton University
       year: 1933 - 1955
       description:
