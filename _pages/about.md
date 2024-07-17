@@ -8,7 +8,7 @@ profile:
   image: qinyuan.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>512</p>
+    <p>qwu [a] mpi-sws.org</p>
     <p>Campus E1 5</p>
     <p>66125, Saarbruecken, Germany </p>
 
