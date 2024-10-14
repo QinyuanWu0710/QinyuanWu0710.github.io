@@ -1,7 +1,7 @@
 ---
 layout: page
-title: come soon
-description: come soon
+title: coming soon
+description: coming soon
 #img: assets/img/misc/ht.jpg
 importance: 1
 category: work
