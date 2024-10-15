@@ -83,15 +83,17 @@ jobs:
 
       - name: Install Python and Set up Virtual Environment
         run: |
-          python3 -m venv venv  # Create virtual environment
-          source venv/bin/activate  # Activate virtual environment
-          pip install --upgrade pip  # Ensure pip is up to date
-          pip install jupyter  # Install Jupyter in virtual environment
-      - name: Install ImageMagick
-        run: sudo apt-get install imagemagick
+          python3 -m venv venv
+          source venv/bin/activate
+          pip install --upgrade pip
+          pip install jupyter nbconvert
+          echo "source $GITHUB_WORKSPACE/venv/bin/activate" >> $GITHUB_ENV
+            - name: Install ImageMagick
+              run: sudo apt-get install imagemagick
           
       - name: Install and Build 🔧
         run: |
+          source $GITHUB_WORKSPACE/venv/bin/activate
           export JEKYLL_ENV=production
           bundle exec jekyll build
 
