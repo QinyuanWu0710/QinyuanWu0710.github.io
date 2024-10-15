@@ -87,7 +87,9 @@ jobs:
           source venv/bin/activate  # Activate virtual environment
           pip install --upgrade pip  # Ensure pip is up to date
           pip install jupyter  # Install Jupyter in virtual environment
-
+      - name: Install ImageMagick
+        run: sudo apt-get install imagemagick
+          
       - name: Install and Build 🔧
         run: |
           export JEKYLL_ENV=production
