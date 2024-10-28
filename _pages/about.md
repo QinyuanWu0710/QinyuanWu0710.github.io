@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I am a second-year PhD student at <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and <a href="https://www.mpi-sws.org/">Max Planck Institute for Software System (MPI-SWS)</a>, under the guidance of <a href="https://people.mpi-sws.org/~gummadi/">Prof. Krishna Gummadi</a>. I am also fortunate to closely collaborate with and be advised by <a href="https://cs-people.bu.edu/evimaria/">Prof. Evimaria Terzi</a> in Boston University. 
+I am a third-year PhD student at <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and <a href="https://www.mpi-sws.org/">Max Planck Institute for Software System (MPI-SWS)</a>, under the guidance of <a href="https://people.mpi-sws.org/~gummadi/">Krishna Gummadi</a>. I am also fortunate to closely collaborate with and be advised by  <a href="https://cs-people.bu.edu/evimaria/">Evimaria Terzi</a>, <a href="https://mtoneva.com/">Mariya Toneva</a> and <a href="https://informatik.rub.de/zafar/">Muhammad Bilal Zafar</a>. 
 My research focuses on understanding the inner workings of deep learning models and establishing trustworthy AI systems. Currently, I am investigating methods for estimating and understanding latent knowledge in Large Language Models (LLMs).
 
 Prior to joining MPI-SWS, I earned my bachelor's degree in mathematics-physics fundamental science from the <a href="https://www.yingcai.uestc.edu.cn//">Yingcai Honors College</a> at the <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China (UESTC)</a>.
