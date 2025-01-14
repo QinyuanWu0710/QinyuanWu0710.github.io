@@ -6,7 +6,6 @@ categories: agents
 tags: [ai, agents, 2025]
 ---
 
-
 # AI Agents
 
 --------------
@@ -195,9 +194,14 @@ All those figures in workflows are coming from  [Abtriouc: Building effective ag
 
 
 ## Environments
+
  This effectively simplifies the agent’s interaction with the outside world as a “text game” with textual observations and actions.
 
+1. **Physical Environments**: These involve AI interacting with the physical world using perceptual inputs (e.g., visual, audio, tactile) converted into text, and robotic planners executing language-based commands. Recent advancements in LLMs have enabled robots to act as "brains" for physical interactions, integrating vision-language models to generate actions or plans.
 
+2. **Dialogue with Humans or Other Agents**: This focuses on linguistic interactions, where agents take instructions, seek clarifications, or assist in tasks. Research also explores multi-agent interactions for tasks like social simulations, debates, and collaborative problem-solving.
+
+3. **Digital Environments**: AI interacts with digital platforms like APIs, websites, and virtual tools. This environment is cost-effective and serves as a testbed for tasks like external knowledge augmentation and computation, making it particularly useful for NLP applications.
 
 ## Enhancing model performance with targeted laerning
 To help the model gain access to this type of specific knowledge about which tools it should select, here are some strategies:
