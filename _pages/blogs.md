@@ -16,9 +16,8 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
-{% raw %}
-{% for post in site.posts %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p>{{ post.excerpt }}</p>
+{% for blog in site.blogs %}
+  <h2><a href="{{ blog.url }}">{{ blog.title }}</a></h2>
+  <p>{{ blog.excerpt }}</p>
 {% endfor %}
-{% endraw %}
+
