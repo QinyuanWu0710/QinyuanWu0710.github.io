@@ -9,5 +9,8 @@ pagination:
   collection: blogs
 ---
 
-[20250115-Agents](https://qinyuanwu0710.github.io/blogs/2025/Agents/Agents.html) 
+# Latest Blog Posts
 
+{% for post in site.blogs %}
+  - [{{ post.title }}]({{ post.url }})
+{% endfor %}
