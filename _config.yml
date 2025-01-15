@@ -199,7 +199,7 @@ collections:
     permalink: /:collection/:title/
   blogs:
     output: true
-    permalink: /blogs/:path/
+    permalink: /blogs/:year/:month/:day/:title/
 
 announcements:
   enabled: true

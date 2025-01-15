@@ -9,8 +9,10 @@ pagination:
   collection: blogs
 ---
 
-# Latest Blog Posts
-
-{% for post in site.blogs %}
-  - [{{ post.title }}]({{ post.url }})
-{% endfor %}
+<h1>Latest Blog Posts</h1>
+<ul>
+  {% assign blogs = site.blogs %}
+  {% for post in blogs %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
