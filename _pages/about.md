@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I am a third-year PhD student at the <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and the <a href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems (MPI-SWS)</a>, advised by <a href="https://people.mpi-sws.org/~gummadi/">Krishna Gummadi</a>. I am also fortunate to closely collaborate with and receive guidance from <a href="https://cs-people.bu.edu/evimaria/">Evimaria Terzi</a>, <a href="https://mtoneva.com/">Mariya Toneva</a>, and <a href="https://informatik.rub.de/zafar/">Muhammad Bilal Zafar</a>.
+I am a third-year PhD student at the <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and the <a href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems (MPI-SWS)</a>, advised by <a href="https://people.mpi-sws.org/~gummadi/">Krishna Gummadi</a>. I am also fortunate to closely collaborate with and receive guidance from <a href="https://cs-people.bu.edu/evimaria/">Evimaria Terzi</a> (Boston University), <a href="https://mtoneva.com/">Mariya Toneva</a> (MPI-SWS), and <a href="https://informatik.rub.de/zafar/">Muhammad Bilal Zafar</a> (Ruhr University Bochum) (Odered by last name alphabet).
 
 My research focuses on understanding the inner workings of deep learning models to build more reliable and transparent AI systems, with an emphasis on Large Language Models (LLMs). Specifically, I investigate how these models encode, retrieve, and process information, delving into questions like memorization, latent knowledge estimation and knowledge injection of LLMs. My goal is to uncover insights that will enable the development of dependable and interpretable deep learning systems.
 
