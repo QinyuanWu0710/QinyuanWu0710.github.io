@@ -2,29 +2,46 @@
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
-      {%- if entry.abbr -%}
-        {%- if site.data.venues[entry.abbr] -%}
-          {% assign venue_style = null %}
-          {% if site.data.venues[entry.abbr].color != blank %}
-            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+  <div class="col col-sm-2 abbr">
+    {%- if entry.abbr -%}
+      {%- assign venue = site.data.venues[entry.abbr] -%}
+      {%- assign default_color = "gray" -%}
+
+      {%- assign colors = 
+        "WSDM 2025:#ff5733, 
+        ArXiv:#2e86c1, 
+        ESI highly cited paper:#28a745" 
+      | split: ", " -%}
+
+      {%- assign venue_color = default_color -%}
+      {%- for color in colors -%}
+        {%- assign parts = color | split: ":" -%}
+        {%- if entry.abbr == parts[0] -%}
+          {%- assign venue_color = parts[1] -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- if venue -%}
+        <abbr 
+          class="badge rounded w-100" 
+          style="background-color: {{ venue_color }}; color: white;"
+        >
+          {%- if venue.url -%}
+            <a href="{{ venue.url }}" style="color: white;">{{ entry.abbr }}</a>
+          {%- else -%}
+            <div>{{- entry.abbr -}}</div>
           {%- endif -%}
-          <abbr
-            class="badge rounded w-100"
-            {% if venue_style %}
-              {{ venue_style }}
-            {% endif -%}
-          >
-            {% if site.data.venues[entry.abbr].url %}
-              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
-            {% else %}
-              <div>{{- entry.abbr -}}</div>
-            {% endif %}
-          </abbr>
-        {% else %}
-          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
-        {% endif %}
-      {% endif %}
+        </abbr>
+      {%- else -%}
+        <abbr 
+          class="badge rounded w-100" 
+          style="background-color: {{ venue_color }}; color: white;"
+        >
+          {{ entry.abbr }}
+        </abbr>
+      {%- endif -%}
+    {%- endif -%}
+
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
