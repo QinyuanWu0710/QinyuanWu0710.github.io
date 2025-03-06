@@ -4,24 +4,27 @@
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
-      {%- assign abbr_colors = "WSDM:#ff5733,ArXic:#33ff57, Recognized as ESI highly cited paper:#3357ff" | split: "," -%}
-        {%- assign venue_style = "" -%}
-        {%- for pair in abbr_colors -%}
-          {%- assign abbr_pair = pair | split: ":" -%}
-          {%- if abbr_pair[0] == entry.abbr -%}
-            {%- assign venue_style = abbr_pair[1] | prepend: 'background-color:' | append: '; color: white;' -%}
+        {%- if site.data.venues[entry.abbr] -%}
+          {% assign venue_style = null %}
+          {% if site.data.venues[entry.abbr].color != blank %}
+            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
         {%- endfor -%}
-        <abbr class="badge rounded w-100" style="{{ venue_style }}">
-          {% if site.data.venues[entry.abbr] and site.data.venues[entry.abbr].url %}
-            <a href="{{ site.data.venues[entry.abbr].url }}" style="color: inherit; text-decoration: none;">{{ entry.abbr }}</a>
-          {% else %}
-            <div>{{- entry.abbr -}}</div>
-          {% endif %}
-        </abbr>
-      {% endif %}
-    </div>
-  {% endif %}
+          <abbr
+            class="badge rounded w-100"
+            {% if venue_style %}
+              {{ venue_style }}
+            {% endif -%}
+          >
+            {% if site.data.venues[entry.abbr].url %}
+              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+            {% else %}
+              <div>{{- entry.abbr -}}</div>
+            {% endif %}
+          </abbr>
+        {% else %}
+          <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
+        {% endif %}
 
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <div class="title">{{ entry.title }}</div>
@@ -47,8 +50,6 @@
       {% endfor %}
     </div>
     <div class="periodical">{{ entry.year }}</div>
-  </div>
-</div>
 
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
