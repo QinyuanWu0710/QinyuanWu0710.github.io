@@ -24,7 +24,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a third-year PhD student at the <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and the <a href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems (MPI-SWS)</a>, advised by <a href="https://people.mpi-sws.org/~gummadi/">Krishna Gummadi</a>. I am also fortunate to closely collaborate with and receive guidance from <a href="https://cs-people.bu.edu/evimaria/">Evimaria Terzi</a> (Boston University), <a href="https://mtoneva.com/">Mariya Toneva</a> (MPI-SWS), and <a href="https://informatik.rub.de/zafar/">Muhammad Bilal Zafar</a> (Ruhr University Bochum) (Odered by last name alphabet). Before I joined MPI-SWS, I got my bachelor degree in mathematics-physics from <a href="https://en.uestc.edu.cn/"> University of Electronic Science and Technology of China (UESTC)</a>.
 
-I investigate how LLMs internalize and utilize knowledge, aiming to enhance their reliability and interpretability, delving into questions like memorization, latent knowledge estimation and knowledge injection of LLMs. 
+I investigate how LLMs internalize and utilize knowledge, aiming to enhance their reliability and interpretability, delving into questions like memorization, knowledge estimation and knowledge learning of LLMs. 
 
 Beyond this, I am enthusiastic about collaborating on:
 
