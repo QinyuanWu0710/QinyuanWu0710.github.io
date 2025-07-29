@@ -9,6 +9,8 @@
 
       {%- assign colors = 
         "WSDM 2025:#ff5733, 
+        R2-FM@ICML 2025: #ADD8E6
+        MemFM@ICML 2025: #ADD8E6
         ArXiv:#2e86c1, 
         ESI highly cited paper:#28a745" 
       | split: ", " -%}
@@ -78,10 +80,14 @@
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        {% if site.scholar.last_name contains author_last_name %}
+        {% assign full_name = author.first | append: ' ' | append: author_last_name %}
+        {% if full_name == "Qinyuan Wu" %}
+          {% assign author_is_self = true %}
+        {% elsif site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
           {% endif %}
+        {% endif %}
         {%- endif -%}
         {% assign coauthor_url = null %}
         {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
