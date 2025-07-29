@@ -9,7 +9,7 @@ pagination:
   collection: blogs
 ---
 
-<h1 class="text-4xl font-semibold text-center mb-8">Latest Blog Posts</h1>
+<!-- <h1 class="text-4xl font-semibold text-center mb-8">Latest Blog Posts</h1>
 <div class="container mx-auto px-4">
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
     {% assign blogs = site.blogs | sort: "date" | reverse %}
@@ -24,4 +24,4 @@ pagination:
       </div>
     {% endfor %}
   </div>
-</div>
+</div> -->
