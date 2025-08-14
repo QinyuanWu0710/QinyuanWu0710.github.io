@@ -142,7 +142,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: false
+  enabled: true
   max_related: 1
 
 # Giscus comments (RECOMMENDED)
@@ -207,8 +207,8 @@ announcements:
   limit: 10 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
-  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 0 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
