@@ -22,8 +22,8 @@ As a personal reading note, there are a lot of copies from the original papers a
       - [What's the differences between $Q$, $K$ and $V$?](#whats-the-differences-between-q-k-and-v)
       - [Why self-attention?](#why-self-attention)
     - [Positional Encoding](#positional-encoding)
-  - [LayerNorm](#layernorm)
-  - [MLP](#mlp)
+    - [LayerNorm](#layernorm)
+    - [MLP](#mlp)
   - [Encoder-Decoder Models and Encoder-only Models](#encoder-decoder-models-and-encoder-only-models)
     - [Encoder-Decoder Models](#encoder-decoder-models)
     - [Encoder-only Models (Masked Language Models - MLMs)](#encoder-only-models-masked-language-models---mlms)
@@ -47,6 +47,7 @@ As a personal reading note, there are a lot of copies from the original papers a
     - [Lectures](#lectures)
     - [Blogs/Tutorials](#blogstutorials)
     - [Papers](#papers)
+
 
 
 ## Transformers and Basic Knowledge
@@ -84,8 +85,12 @@ Var(QK^T) = d_k
 #### What's the differences between $Q$, $K$ and $V$?
 Or ask this question: With this Q and K vectors we calculate attention and multiply it with V .
 
+From the computation perspective, they are different linear projections of the same input sequence, though each serving a different role by our interpretation.
 
 
+**<span style="color:red">TODO Papers</span>**
+ - [Compositional Attention: Disentangling Search and Retrieval, ICLR 2022](https://arxiv.org/pdf/2110.09419)
+ - [Exploring the Space of Key-Value-Query Models with Intention](https://arxiv.org/pdf/2305.10203)
 
 #### Why self-attention?
 
@@ -175,13 +180,13 @@ There are also some newer positional encoding methods, there would be more detai
 Other resources:
     - https://dm.cs.tu-dortmund.de/en/mlbits/neural-nlp-positional-encoding/
 
-## LayerNorm
+### LayerNorm
 
 Proposed for RNN, suitable for transformers well, make the training much faster than batch normalization. Check the resources for the differences between batch normalization and layer normalization: [1. Blog: BatchNorm and LayerNorm](https://medium.com/@florian_algo/batchnorm-and-layernorm-2637f46a998b), [2. Layer Normalization Paper](https://arxiv.org/pdf/1607.06450).
 
 In the transformers, layer normalization is usually applied before the attention input vectors and after we get the attention out vectors.
 
-## MLP
+### MLP
 
 Multi-level perception (MLP) is a fully connected layer, which can be formulated as:
 
@@ -190,6 +195,9 @@ y=\sigma(W x + b)
 \), where $W$ is the MLP weight and $b$ is the bias, $\sigma$ is tha activation function. 
 
 In traditional deep learning, MLP is usually used to capture the complex patterns in data by transformation through multiple hidden layers, it can be used in tasks like classification, regression and embedding generation. In Transformer modes, MLPs are typically used after a self-attention layer, transform the previous attention output to the next attention input. 
+
+**<span style="color:red">TODO Papers</span>**
+- [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913)
 
 ## Encoder-Decoder Models and Encoder-only Models
 
