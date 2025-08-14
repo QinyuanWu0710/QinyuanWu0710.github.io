@@ -220,6 +220,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  math_engine: katex
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
