@@ -2,7 +2,7 @@
 layout: blog
 title: "Reading Note: From Transformers to LLMs"
 date: 2025-08-14
-categories: model archtechture
+categories: model archtechture 
 tags: [llm, archtechture,reading note]
 ---
 
