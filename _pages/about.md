@@ -26,7 +26,7 @@ I am a third-year PhD student at the <a href="https://www.cis.mpg.de/">CS@Max Pl
 
 I investigate how large language models (LLMs) internalize, represent, and utilize knowledge—seeking to enhance their reliability, interpretability, and safety. My work centers on understanding the interplay between internal learning (from training) and external adaptation (via prompts, retrieval, or tool use).
 
-Ultimately, I aim to close the loop between how LLMs learn, remember, and act—toward more trustworthy and cognitively grounded AI systems.
+Ultimately, I aim to understand and improve the loop between how LLMs learn, remember, refer, and act—toward more trustworthy and cognitively grounded AI systems.
 
 Beyond core research, I collaborate on:
 
