@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'll attend EMNLP 2026 happening in Suzhou, come and chat if you're there :)
+I'll attend EMNLP 2025 happening in Suzhou, come and chat!
