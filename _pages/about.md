@@ -24,12 +24,20 @@ social: true # includes social icons at the bottom of the page
 
 I am a third-year PhD student at the <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and the <a href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems (MPI-SWS)</a>, advised by <a href="https://people.mpi-sws.org/~gummadi/">Krishna Gummadi</a>. I am also fortunate to closely collaborate with and receive guidance from <a href="https://cs-people.bu.edu/evimaria/">Evimaria Terzi</a> (Boston University), <a href="https://mtoneva.com/">Mariya Toneva</a> (MPI-SWS), and <a href="https://informatik.rub.de/zafar/">Muhammad Bilal Zafar</a> (Ruhr University Bochum) (Odered by last name alphabet). Before I joined MPI-SWS, I got my bachelor degree in mathematics-physics from <a href="https://en.uestc.edu.cn/"> University of Electronic Science and Technology of China (UESTC)</a>.
 
-I investigate how LLMs internalize and utilize knowledge, aiming to enhance their reliability and interpretability, delving into questions like memorization, knowledge estimation and knowledge learning of LLMs. 
+I investigate how large language models (LLMs) internalize, represent, and utilize knowledge—seeking to enhance their reliability, interpretability, and safety. My work centers on understanding the interplay between internal learning (from training) and external adaptation (via prompts, retrieval, or tool use).
 
-Beyond this, I am enthusiastic about collaborating on:
+Beyond core research, I collaborate on:
 
-1. *Privacy and security challenges in LLMs* – exploring ways to mitigate risks while maintaining model utility.
-2. *The intersection of neuroscience and language models* – investigating how insights from the human brain can inform AI research and vice versa.
-3. *Systems for serving LLMs* – including Parameter-Efficient Fine-Tuning (PEFT), quantization, and inference optimization methods like KV caching. While not an expert in LLM systems, I find it fascinating to explore how these optimizations influence model behavior.
+1. Privacy and security in LLMs – balancing data protection with model utility and efficiency.
 
-<!-- Prior to joining MPI-SWS, I earned my bachelor's degree in mathematics-physics fundamental science from the <a href="https://www.yingcai.uestc.edu.cn//">Yingcai Honors College</a> at the <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China (UESTC)</a>. -->
+2. Neuroscience-inspired modeling – linking human memory mechanisms to LLM cognition.
+
+3. LLM systems and optimization – exploring how PEFT, quantization, and inference techniques affect learning and behavior.
+
+Ultimately, I aim to close the loop between how LLMs learn, remember, and act—toward more trustworthy and cognitively grounded AI systems.
+
+---
+
+![Overview of my research](assets/img/overview_work.png){: style="display:block; margin-left:auto; margin-right:auto; width:90%; border-radius:10px;" }
+
+<p style="text-align:center; font-style:italic;">Figure: Overview of my research focus — connecting internal and external knowledge in LLMs.</p>
