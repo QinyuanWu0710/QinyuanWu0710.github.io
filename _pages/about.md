@@ -37,7 +37,7 @@ Beyond core research, I collaborate on:
 3. LLM systems and optimization – exploring how PEFT, quantization, and inference techniques affect learning and behavior.
 
 ---
-
+<!-- 
 ![Overview of my research](assets/img/overview_work.png){: style="display:block; margin-left:auto; margin-right:auto; width:90%; border-radius:10px;" }
 
-<p style="text-align:center; font-style:italic;">Figure: Overview of my research focus — connecting internal and external knowledge in LLMs.</p>
+<p style="text-align:center; font-style:italic;">Figure: Overview of my research focus — connecting internal and external knowledge in LLMs.</p> -->

@@ -7,20 +7,16 @@
       {%- assign venue = site.data.venues[entry.abbr] -%}
       {%- assign default_color = "gray" -%}
 
-      {%- assign colors = 
-        "WSDM:#ff5733, 
-        WWW:#ff5733, 
-        R2-FM@ICML 2025: #ADD8E6
-        MemFM@ICML 2025: #ADD8E6
-        ArXiv:#2e86c1, 
-        ESI highly cited paper:#28a745" 
-      | split: ", " -%}
+      {%- assign colors_str = "WSDM 2025:#ff5733,WWW 2026:#ff5733,Workshop@ICML 2025:#ADD8E6,ArXiv:#2e86c1,Journal:#28a745" -%}
+      {%- assign colors = colors_str | split: "," -%}
 
       {%- assign venue_color = default_color -%}
       {%- for color in colors -%}
         {%- assign parts = color | split: ":" -%}
-        {%- if entry.abbr == parts[0] -%}
-          {%- assign venue_color = parts[1] -%}
+        {%- assign key = parts[0] | strip -%}
+        {%- assign val = parts[1] | strip -%}
+        {%- if entry.abbr == key -%}
+          {%- assign venue_color = val -%}
         {%- endif -%}
       {%- endfor -%}
 
