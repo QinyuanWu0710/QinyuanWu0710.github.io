@@ -28,6 +28,7 @@ My research investigates how large language models (LLMs) internalize, represent
 
 More broadly, I aim to understand and improve the loop between how LLMs **learn, remember, retrieve, and act**, moving toward AI systems that are both more trustworthy and more cognitively grounded.
 
+I'm also interested in those domains and actively collaborate on projects about:
 
 - **Privacy and security in LLMs** — balancing data protection with model utility and efficiency  
 - **Neuroscience-inspired modeling** — exploring connections between human memory mechanisms and LLM cognition  
