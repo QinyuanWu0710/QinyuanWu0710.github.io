@@ -87,7 +87,7 @@ I'm also interested in those domains and actively collaborate on projects about:
       <h4><span class="qwa-num">1</span> Encoding &amp; Memorization</h4>
       <p class="qwa-cap">how knowledge is acquired &amp; stored</p>
       <ul>
-        <li><a href="https://arxiv.org/abs/2407.19262" target="_blank" rel="noopener">Understanding memorisation dynamics</a> <span class="qwa-v">P1 &rsquo;24</span></li>
+        <li><a href="https://arxiv.org/abs/2407.19262" target="_blank" rel="noopener">Understanding memorisation dynamics</a> <span class="qwa-v">arXiv &rsquo;24</span></li>
         <li><a href="https://arxiv.org/abs/2507.14777" target="_blank" rel="noopener">Rethinking memorization measures</a> <span class="qwa-v">ICML&rsquo;25 W</span></li>
         <li class="qwa-fa"><a href="https://arxiv.org/abs/2507.21914" target="_blank" rel="noopener">Rote learning, generalization</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">ICLR&rsquo;26</span></li>
         <li><a href="https://arxiv.org/abs/2604.23267" target="_blank" rel="noopener">Fine-tuning vs. in-context learning</a> <span class="qwa-v">ACL&rsquo;26</span></li>
