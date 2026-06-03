@@ -74,7 +74,7 @@ I'm also interested in those domains and actively collaborate on projects about:
 </style>
   <div class="qwa-goal">
     <b>Goal: Reliable &amp; controllable AI systems</b>
-    <div class="qwa-sub" style="color:#eef2f7 !important;">a cognitive account of <em>what</em> LLMs know and <em>how</em> they act &mdash; to steer both the model and the computing system around it</div>
+    <div class="qwa-sub" style="color:#eef2f7 !important;">a cognitive account of what LLMs know and how they act &mdash; to steer both the model and the computing system around it</div>
   </div>
   <div class="qwa-axis">
     <span class="qwa-lab">INTERNAL &mdash; what &amp; how LLMs know</span>
