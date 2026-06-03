@@ -34,7 +34,6 @@ I'm also interested in those domains and actively collaborate on projects about:
 - **Neuroscience-inspired modeling** — exploring connections between human memory mechanisms and LLM cognition  
 
 ---
-
 <div class="qwa">
 <style>
 .qwa{--ink:#1f2937;--muted:#475569;--c1:#2563eb;--c1bg:#eff6ff;--c2:#0d9488;
@@ -45,7 +44,7 @@ I'm also interested in those domains and actively collaborate on projects about:
 .qwa *{box-sizing:border-box;}
 .qwa-goal{background:#1f2937;color:#fff;border-radius:11px;padding:14px 18px;text-align:center;}
 .qwa-goal b{font-size:1.18rem;letter-spacing:.2px;}
-.qwa-goal .qwa-sub{font-size:.92rem;opacity:.92;margin-top:3px;}
+.qwa-goal .qwa-sub{font-size:.92rem;color:#eef2f7 !important;margin-top:3px;}
 .qwa-axis{display:flex;align-items:center;gap:12px;color:var(--muted);font-weight:700;font-size:.86rem;margin:12px 4px 14px;}
 .qwa-axis .qwa-lab{white-space:nowrap;}
 .qwa-axis .qwa-line{flex:1 1 auto;height:0;border-top:2px solid var(--muted);position:relative;}
@@ -75,7 +74,7 @@ I'm also interested in those domains and actively collaborate on projects about:
 </style>
   <div class="qwa-goal">
     <b>Goal: Reliable &amp; controllable AI systems</b>
-    <div class="qwa-sub">a cognitive account of <em>what</em> LLMs know and <em>how</em> they act &mdash; to steer both the model and the computing system around it</div>
+    <div class="qwa-sub" style="color:#eef2f7 !important;">a cognitive account of <em>what</em> LLMs know and <em>how</em> they act &mdash; to steer both the model and the computing system around it</div>
   </div>
   <div class="qwa-axis">
     <span class="qwa-lab">INTERNAL &mdash; what &amp; how LLMs know</span>
@@ -87,7 +86,7 @@ I'm also interested in those domains and actively collaborate on projects about:
       <h4><span class="qwa-num">1</span> Encoding &amp; Memorization</h4>
       <p class="qwa-cap">how knowledge is acquired &amp; stored</p>
       <ul>
-        <li><a href="https://arxiv.org/abs/2407.19262" target="_blank" rel="noopener">Understanding memorisation dynamics</a> <span class="qwa-v">arXiv &rsquo;24</span></li>
+        <li><a href="https://arxiv.org/abs/2407.19262" target="_blank" rel="noopener">Understanding memorisation dynamics</a> <span class="qwa-v">P1 &rsquo;24</span></li>
         <li><a href="https://arxiv.org/abs/2507.14777" target="_blank" rel="noopener">Rethinking memorization measures</a> <span class="qwa-v">ICML&rsquo;25 W</span></li>
         <li class="qwa-fa"><a href="https://arxiv.org/abs/2507.21914" target="_blank" rel="noopener">Rote learning, generalization</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">ICLR&rsquo;26</span></li>
         <li><a href="https://arxiv.org/abs/2604.23267" target="_blank" rel="noopener">Fine-tuning vs. in-context learning</a> <span class="qwa-v">ACL&rsquo;26</span></li>
@@ -121,6 +120,6 @@ I'm also interested in those domains and actively collaborate on projects about:
     <b>Cognitive lens (human memory)</b> &nbsp; encoding &middot; storage &middot; retrieval &nbsp;|&nbsp; semantic &harr; episodic &nbsp;|&nbsp; recollection &amp; reliable recall
   </div>
   <div class="qwa-legend">
-    <span class="qwa-star">&#9733;</span> <b>(equal-)first author</b> &nbsp;&nbsp; <b>W</b> = workshop 
+    <span class="qwa-star">&#9733;</span> <b>(equal-)first author</b> &nbsp;&nbsp; <b>W</b> = workshop &nbsp;&nbsp; <b>P</b> = preprint
   </div>
 </div>
