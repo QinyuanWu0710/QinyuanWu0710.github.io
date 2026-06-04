@@ -73,7 +73,7 @@ I'm also interested in those domains and actively collaborate on projects about:
 @media (max-width:760px){.qwa-cols{flex-direction:column;}.qwa-axis{flex-direction:column;gap:6px;text-align:center;}.qwa-axis .qwa-line{width:60%;align-self:center;}}
 </style>
   <div class="qwa-goal">
-    <b>Goal: Reliable &amp; controllable AI systems</b>
+    <b>Reliable &amp; controllable AI systems</b>
     <div class="qwa-sub" style="color:#eef2f7 !important;">a cognitive account of what LLMs know and how they act &mdash; to steer both the model and the computing system around it</div>
   </div>
   <div class="qwa-axis">
@@ -86,9 +86,9 @@ I'm also interested in those domains and actively collaborate on projects about:
       <h4><span class="qwa-num">1</span> Encoding &amp; Memorization</h4>
       <p class="qwa-cap">how knowledge is acquired &amp; stored</p>
       <ul>
-        <li><a href="https://arxiv.org/abs/2407.19262" target="_blank" rel="noopener">Understanding memorisation dynamics</a> <span class="qwa-v">P1 &rsquo;24</span></li>
+          <li class="qwa-fa"><a href="https://arxiv.org/abs/2507.21914" target="_blank" rel="noopener">Rote learning, generalization</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">ICLR&rsquo;26</span></li>
         <li><a href="https://arxiv.org/abs/2507.14777" target="_blank" rel="noopener">Rethinking memorization measures</a> <span class="qwa-v">ICML&rsquo;25 W</span></li>
-        <li class="qwa-fa"><a href="https://arxiv.org/abs/2507.21914" target="_blank" rel="noopener">Rote learning, generalization</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">ICLR&rsquo;26</span></li>
+        <li><a href="https://arxiv.org/abs/2407.19262" target="_blank" rel="noopener">Understanding memorisation dynamics</a> <span class="qwa-v">arXiv&rsquo;24</span></li>
         <li><a href="https://arxiv.org/abs/2604.23267" target="_blank" rel="noopener">Fine-tuning vs. in-context learning</a> <span class="qwa-v">ACL&rsquo;26</span></li>
       </ul>
     </section>
@@ -120,6 +120,6 @@ I'm also interested in those domains and actively collaborate on projects about:
     <b>Cognitive lens (human memory)</b> &nbsp; encoding &middot; storage &middot; retrieval &nbsp;|&nbsp; semantic &harr; episodic &nbsp;|&nbsp; recollection &amp; reliable recall
   </div>
   <div class="qwa-legend">
-    <span class="qwa-star">&#9733;</span> <b>(equal-)first author</b> &nbsp;&nbsp; <b>W</b> = workshop &nbsp;&nbsp; <b>P</b> = preprint
+    <span class="qwa-star">&#9733;</span> <b>(equal-)first author</b> &nbsp;&nbsp; <b>W</b> = workshop &nbsp;&nbsp
   </div>
 </div>
