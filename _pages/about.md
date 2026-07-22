@@ -74,7 +74,7 @@ I'm also interested in those domains and actively collaborate on projects about:
 </style>
   <div class="qwa-goal">
     <b>Reliable &amp; controllable AI systems</b>
-    <div class="qwa-sub" style="color:#eef2f7 !important;">a cognitive account of what LLMs know and how they act &mdash; to steer both the model and the computing system around it</div>
+    <div class="qwa-sub" style="color:#eef2f7 !important;">Reliable action depends on managing the full knowledge lifecycle: acquisition, representation, retrieval, and use—under uncertainty and changing context.</div>
   </div>
   <div class="qwa-axis">
     <span class="qwa-lab">INTERNAL &mdash; what &amp; how LLMs know</span>
@@ -83,8 +83,8 @@ I'm also interested in those domains and actively collaborate on projects about:
   </div>
   <div class="qwa-cols">
     <section class="qwa-card qwa-c1">
-      <h4><span class="qwa-num">1</span> Encoding &amp; Memorization</h4>
-      <p class="qwa-cap">how knowledge is acquired &amp; stored</p>
+      <h4><span class="qwa-num">1</span> Learning &amp; Encoding</h4>
+      <p class="qwa-cap">What becomes knowable? &amp; stored</p>
       <ul>
           <li class="qwa-fa"><a href="https://arxiv.org/abs/2507.21914" target="_blank" rel="noopener">Rote learning, generalization</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">ICLR&rsquo;26</span></li>
         <li><a href="https://arxiv.org/abs/2507.14777" target="_blank" rel="noopener">Rethinking memorization measures</a> <span class="qwa-v">ICML&rsquo;25 W</span></li>
@@ -93,14 +93,14 @@ I'm also interested in those domains and actively collaborate on projects about:
       </ul>
     </section>
     <section class="qwa-card qwa-c2">
-      <h4><span class="qwa-num">2</span> Knowledge &amp; Memory</h4>
-      <p class="qwa-cap">how knowledge is organized &amp; estimated</p>
+      <h4><span class="qwa-num">2</span> Memory &amp; Retrieval</h4>
+      <p class="qwa-cap">What can be recalled? &amp; estimated</p>
       <div class="qwa-grp">Semantic / factual</div>
       <ul>
         <li class="qwa-fa"><a href="https://arxiv.org/abs/2404.12957" target="_blank" rel="noopener">Latent knowledge estimation</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">WSDM&rsquo;25</span></li>
         <li class="qwa-fa"><a href="https://arxiv.org/abs/2602.01450" target="_blank" rel="noopener">Self-portrait: memory in ChatGPT</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">WWW&rsquo;26</span></li>
       </ul>
-      <div class="qwa-grp">Episodic / temporal</div>
+      <div class="qwa-grp">Episodic </div>
       <ul>
         <li><a href="https://openreview.net/forum?id=sycSMgogxM" target="_blank" rel="noopener">Temporal context reinstatement</a> <span class="qwa-v">ICML&rsquo;26</span></li>
         <li><a href="https://arxiv.org/abs/2502.06975" target="_blank" rel="noopener">Episodic memory: the missing piece</a> <span class="qwa-v">arXiv &rsquo;25</span></li>
@@ -108,7 +108,7 @@ I'm also interested in those domains and actively collaborate on projects about:
     </section>
     <section class="qwa-card qwa-c3">
       <h4><span class="qwa-num">3</span> Behavior &amp; Agentic Action</h4>
-      <p class="qwa-cap">whether knowing &rarr; reliable acting</p>
+      <p class="qwa-cap">How should recalled and external knowledge control behavior?</p>
       <ul>
         <li class="qwa-fa"><a href="https://arxiv.org/abs/2605.00737" target="_blank" rel="noopener">To call or not to call (tool use)</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">arXiv &rsquo;26</span></li>
         <li><a href="https://arxiv.org/abs/2602.15456" target="_blank" rel="noopener">Who do agents trust? (sources)</a> <span class="qwa-v">ICLR&rsquo;26</span></li>
@@ -117,7 +117,7 @@ I'm also interested in those domains and actively collaborate on projects about:
     </section>
   </div>
   <div class="qwa-lens">
-    <b>Cognitive lens (human memory)</b> &nbsp; encoding &middot; storage &middot; retrieval &nbsp;|&nbsp; semantic &harr; episodic &nbsp;|&nbsp; recollection &amp; reliable recall
+    <b>Metacognition and uncertainty:</b> what is known, remembered, missing, stale, or worth verifying?
   </div>
   <div class="qwa-legend">
     <span class="qwa-star">&#9733;</span> <b>(equal-)first author</b> &nbsp;&nbsp; <b>W</b> = workshop &nbsp;&nbsp
