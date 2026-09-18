@@ -110,7 +110,7 @@ I'm also interested in those domains and actively collaborate on projects about:
       <h4><span class="qwa-num">3</span> Behavior &amp; Agentic Action</h4>
       <p class="qwa-cap">How should recalled and external knowledge control behavior?</p>
       <ul>
-        <li class="qwa-fa"><a href="https://arxiv.org/abs/2605.00737" target="_blank" rel="noopener">To call or not to call (tool use)</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">arXiv &rsquo;26</span></li>
+        <li class="qwa-fa"><a href="https://arxiv.org/abs/2605.00737" target="_blank" rel="noopener">To call or not to call (tool use)</a> · <a href="{{ '/assets/html/paper-tool-calling/' | relative_url }}">Visual guide</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">arXiv &rsquo;26</span></li>
         <li><a href="https://arxiv.org/abs/2602.15456" target="_blank" rel="noopener">Who do agents trust? (sources)</a> <span class="qwa-v">ICLR&rsquo;26</span></li>
          <li><a href="https://arxiv.org/abs/2510.11560" target="_blank" rel="noopener">Web search in the GenAI age</a> <span class="qwa-v">ACL&rsquo;26</span></li>
       </ul>

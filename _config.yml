@@ -362,6 +362,7 @@ filtered_bibtex_keywords:
     blog,
     code,
     html,
+    html_label,
     pdf,
     poster,
     preview,
