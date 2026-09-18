@@ -753,6 +753,23 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+        a.btn.btn-display {
+          color: #74334f;
+          background-color: #fce4ec;
+          border-color: #e7b2c5;
+
+          &:hover,
+          &:focus-visible {
+            color: #632540;
+            background-color: #f8cddd;
+            border-color: #b96b8a;
+          }
+
+          &:focus-visible {
+            outline: 2px solid #b96b8a;
+            outline-offset: 2px;
+          }
+        }
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
