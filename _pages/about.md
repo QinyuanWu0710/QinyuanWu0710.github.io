@@ -29,6 +29,7 @@ My research investigates how AI models internalize, structure, and utilize knowl
 I also actively collaborate on interdisciplinary projects covering:
 * **Privacy & Security in AI:** Balancing data protection with system utility and operational efficiency.
 * **Neuroscience-Inspired Modeling:** Exploring parallels between human memory architectures and artificial cognition.
+  
 ---
 <div class="qwa">
 <style>
