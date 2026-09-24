@@ -24,15 +24,11 @@ social: true # includes social icons at the bottom of the page
 
 I am a fourth-year PhD student at the <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and the <a href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems (MPI-SWS)</a>, advised by <a href="https://people.mpi-sws.org/~gummadi/">Krishna Gummadi</a> and <a href="https://informatik.rub.de/zafar/">Muhammad Bilal Zafar</a> (Ruhr University Bochum). I am also fortunate to closely collaborate with and receive guidance from <a href="https://lasharavichander.github.io/">Abhilasha Ravichander</a> (MPI-SWS), <a href="https://cs-people.bu.edu/evimaria/">Evimaria Terzi</a> (Boston University), <a href="https://mtoneva.com/">Mariya Toneva</a> (MPI-SWS). Before I joined MPI-SWS, I got my bachelor's degree in mathematics-physics from <a href="https://en.uestc.edu.cn/"> University of Electronic Science and Technology of China (UESTC)</a>.
 
-My research investigates how large language models (LLMs) internalize, represent, and use knowledge, with the goal of improving their reliability, interpretability, and safety. In particular, I study the interaction between **internal learning during training** and **external adaptation mechanisms**, such as prompting, retrieval, and tool use.
+My research investigates how AI models internalize, structure, and utilize knowledge to execute reliable actions. Specifically, I study how **internal parametric knowledge** interacts with **dynamic runtime environments**—such as context windows, memory structures, and external tools—to bridge the gap between descriptive model behavior and normative frameworks. More broadly, I aim to understand and enhance the end-to-end loop of how intelligent systems **learn, remember, retrieve, and act**, advancing toward more trustworthy, interpretable, and human-centered AI.
 
-More broadly, I aim to understand and improve the loop between how LLMs **learn, remember, retrieve, and act**, moving toward AI systems that are both more trustworthy and more cognitively grounded.
-
-I'm also interested in those domains and actively collaborate on projects about:
-
-- **Privacy and security in LLMs** — balancing data protection with model utility and efficiency  
-- **Neuroscience-inspired modeling** — exploring connections between human memory mechanisms and LLM cognition  
-
+I also actively collaborate on interdisciplinary projects covering:
+* **Privacy & Security in AI:** Balancing data protection with system utility and operational efficiency.
+* **Neuroscience-Inspired Modeling:** Exploring parallels between human memory architectures and artificial cognition.
 ---
 <div class="qwa">
 <style>
