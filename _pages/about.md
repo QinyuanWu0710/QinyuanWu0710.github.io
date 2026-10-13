@@ -85,7 +85,6 @@ I also actively collaborate on interdisciplinary projects covering:
       <ul>
           <li class="qwa-fa"><a href="https://arxiv.org/abs/2507.21914" target="_blank" rel="noopener">Rote learning, generalization</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">ICLR&rsquo;26</span></li>
         <li><a href="https://arxiv.org/abs/2507.14777" target="_blank" rel="noopener">Memorization VS Learning during training</a> <span class="qwa-v">NeurIPS DB 26</span></li>
-        <li><a href="https://arxiv.org/abs/2407.19262" target="_blank" rel="noopener">Understanding memorisation dynamics</a> <span class="qwa-v">arXiv&rsquo;24</span></li>
         <li><a href="https://arxiv.org/abs/2604.23267" target="_blank" rel="noopener">Fine-tuning vs. in-context learning</a> <span class="qwa-v">ACL&rsquo;26</span></li>
       </ul>
     </section>
