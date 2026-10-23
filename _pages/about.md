@@ -26,6 +26,8 @@ I am a final year PhD student at the <a href="https://www.cis.mpg.de/">CS@Max Pl
 
 My research investigates how AI models internalize, structure, and utilize knowledge to execute reliable actions. Specifically, I study how **internal parametric knowledge** interacts with **dynamic runtime environments**—such as context windows, memory structures, and external tools—to bridge the gap between descriptive model behavior and normative frameworks. More broadly, I aim to understand and enhance the end-to-end loop of how intelligent systems **learn, remember, retrieve, and act**, advancing toward more trustworthy, interpretable, and human-centered AI.
 
+For more detail on my research and future directions, see my [research statement]({{ '/assets/html/research-statement/' | relative_url }}).
+
 I also actively collaborate on interdisciplinary projects covering:
 * **Privacy & Security in AI:** Balancing data protection with system utility and operational efficiency.
 * **Neuroscience-Inspired Modeling:** Exploring parallels between human memory architectures and artificial cognition.
