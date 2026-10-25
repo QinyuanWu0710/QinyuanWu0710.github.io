@@ -13,6 +13,13 @@ nav_order: 6
 - Teaching Assistant: <a href="https://courses.mpi-sws.org/etllm-ws25/">Efficient Training of Large Language Models: From Basics to Fine-Tuning</a> (Winter 2025–26, Saarland University)
 - Teaching Assistant: <a href="https://sysllm.mpi-sws.org">Systems for Large (Language) Models</a> (Winter 2023–24, Saarland University)
 
+## Mentoring
+
+I mentor master's students on research projects involving conversational AI agents:
+
+- **Nour El Imane EL BAR** — Master's student at Ecole nationale Superieure d'Informatique (ESI); October 2026–present. Research topic: personalization of conversational AI agents.
+- **Amal Messaoud** — Master's student at Ecole nationale Superieure d'Informatique (ESI); October 2026–present. Research topic: information extraction from social media and reuse for AI agents.
+
 ## Reviewing
 
 - Reviewer: ICLR, ICML, FAccT, COLM, NeurIPS, ARR reviewing cycles
