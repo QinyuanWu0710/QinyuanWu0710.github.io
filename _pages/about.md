@@ -33,7 +33,7 @@ I also actively collaborate on interdisciplinary projects covering:
 * **Neuroscience-Inspired Modeling:** Exploring parallels between human memory architectures and artificial cognition.
   
 ---
-<div class="qwa">
+<div class="qwa" role="region" aria-label="Research overview: learning, memory, and action. Scroll horizontally on small screens." tabindex="0">
 <style>
 .qwa{--ink:#1f2937;--muted:#475569;--c1:#2563eb;--c1bg:#eff6ff;--c2:#0d9488;
      --c2bg:#f0fdfa;--c3:#d97706;--c3bg:#fffbeb;--hl:#b91c1c;--line:#cbd5e1;
@@ -69,8 +69,13 @@ I also actively collaborate on interdisciplinary projects covering:
 .qwa-lens b{color:#1f2937;}
 .qwa-legend{margin-top:9px;text-align:center;font-size:.78rem;color:var(--muted);}
 .qwa-legend .qwa-star{color:var(--hl);font-weight:700;}
-@media (max-width:760px){.qwa-cols{flex-direction:column;}.qwa-axis{flex-direction:column;gap:6px;text-align:center;}.qwa-axis .qwa-line{width:60%;align-self:center;}}
+@media (max-width:760px){
+  .qwa{padding:12px;overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  .qwa-diagram{min-width:760px;}
+  .qwa:focus-visible{outline:2px solid var(--c1);outline-offset:3px;}
+}
 </style>
+  <div class="qwa-diagram">
   <div class="qwa-goal">
     <b>Reliable &amp; controllable AI systems</b>
     <div class="qwa-sub" style="color:#eef2f7 !important;">Reliable action depends on managing the full knowledge lifecycle: acquisition, representation, retrieval, and use—under uncertainty and changing context.</div>
@@ -111,6 +116,7 @@ I also actively collaborate on interdisciplinary projects covering:
         <li class="qwa-fa"><a href="https://arxiv.org/abs/2605.00737" target="_blank" rel="noopener">To call or not to call (tool use)</a> · <a href="{{ '/assets/html/paper-tool-calling/' | relative_url }}">Visual guide</a> <span class="qwa-star">&#9733;</span> <span class="qwa-v">arXiv &rsquo;26</span></li>
         <li><a href="https://arxiv.org/abs/2602.15456" target="_blank" rel="noopener">Who do agents trust? (sources)</a> <span class="qwa-v">ICLR&rsquo;26</span></li>
          <li><a href="https://arxiv.org/abs/2510.11560" target="_blank" rel="noopener">Web search in the GenAI age</a> <span class="qwa-v">ACL&rsquo;26</span></li>
+        <li><a href="https://arxiv.org/abs/2609.19244" title="Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses" target="_blank" rel="noopener">Web search by conversational LLM agents</a> <span class="qwa-v">arXiv &rsquo;26</span></li>
       </ul>
     </section>
   </div>
@@ -118,6 +124,7 @@ I also actively collaborate on interdisciplinary projects covering:
     <b>Metacognition and uncertainty:</b> what is known, remembered, missing, stale, or worth verifying?
   </div>
   <div class="qwa-legend">
-    <span class="qwa-star">&#9733;</span> <b>(equal-)first author</b> &nbsp;&nbsp; <b>W</b> = workshop &nbsp;&nbsp
+    <span class="qwa-star">&#9733;</span> <b>(equal-)first author</b>
+  </div>
   </div>
 </div>
