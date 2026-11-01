@@ -31,7 +31,7 @@ I investigate how internal parametric knowledge interacts with context, memory, 
 ---
 <div class="qwa" role="region" aria-label="Research overview: learning, memory, and action. Scroll horizontally on small screens." tabindex="0">
 <style>
-.qwa{--ink:#1f2937;--muted:#475569;--c1:#2563eb;--c1bg:#eff6ff;--c2:#0d9488;
+.qwa{clear:both;display:flow-root;--ink:#1f2937;--muted:#475569;--c1:#2563eb;--c1bg:#eff6ff;--c2:#0d9488;
      --c2bg:#f0fdfa;--c3:#d97706;--c3bg:#fffbeb;--hl:#b91c1c;--line:#cbd5e1;
      max-width:980px;margin:1.6rem auto;padding:18px 18px 14px;
      background:#fff;border:1px solid #e5e7eb;border-radius:14px;
