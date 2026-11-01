@@ -24,16 +24,10 @@ social: true # includes social icons at the bottom of the page
 
 I am Qinyuan Wu (吴沁媛), a final year PhD student at the <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and the <a href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems (MPI-SWS)</a>, advised by <a href="https://people.mpi-sws.org/~gummadi/">Krishna Gummadi</a> and <a href="https://informatik.rub.de/zafar/">Muhammad Bilal Zafar</a> (Ruhr University Bochum). I am also fortunate to closely collaborate with and receive guidance from <a href="https://lasharavichander.github.io/">Abhilasha Ravichander</a> (MPI-SWS), <a href="https://cs-people.bu.edu/evimaria/">Evimaria Terzi</a> (Boston University), <a href="https://mtoneva.com/">Mariya Toneva</a> (MPI-SWS). Before I joined MPI-SWS, I got my bachelor's degree in mathematics-physics from <a href="https://en.uestc.edu.cn/"> University of Electronic Science and Technology of China (UESTC)</a>.
 
-My research takes **AI agents as objects of study**, with a particular emphasis on **LLM-based agents**, examining how they acquire knowledge, form memories, and use what they know to act. Through this lens, I seek to understand the principles underlying intelligent behavior and how these systems can become more reliable, interpretable, and aligned with human needs.
+My research takes AI agents as objects of study, with a particular emphasis on LLM-based agents. 
+I investigate how internal parametric knowledge interacts with context, memory, and external tools to shape agents’ decisions and behavior.
 
-My research investigates how AI models internalize, structure, and utilize knowledge to execute reliable actions. Specifically, I study how **internal parametric knowledge** interacts with **dynamic runtime environments**—such as context windows, memory structures, and external tools—to bridge the gap between descriptive model behavior and normative frameworks. More broadly, I aim to understand and enhance the end-to-end loop of how intelligent systems **learn, remember, retrieve, and act**, advancing toward more trustworthy, interpretable, and human-centered AI.
 
-For more detail on my research and future directions, see my [research statement]({{ '/assets/html/research-statement/' | relative_url }}).
-
-I also actively collaborate on interdisciplinary projects covering:
-* **Privacy & Security in AI:** Balancing data protection with system utility and operational efficiency.
-* **Neuroscience-Inspired Modeling:** Exploring parallels between human memory architectures and artificial cognition.
-  
 ---
 <div class="qwa" role="region" aria-label="Research overview: learning, memory, and action. Scroll horizontally on small screens." tabindex="0">
 <style>
