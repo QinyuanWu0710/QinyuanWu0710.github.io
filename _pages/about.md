@@ -24,8 +24,9 @@ social: true # includes social icons at the bottom of the page
 
 I am Qinyuan Wu (吴沁媛), a final year PhD student at the <a href="https://www.cis.mpg.de/">CS@Max Planck</a> and the <a href="https://www.mpi-sws.org/">Max Planck Institute for Software Systems (MPI-SWS)</a>, advised by <a href="https://people.mpi-sws.org/~gummadi/">Krishna Gummadi</a> and <a href="https://informatik.rub.de/zafar/">Muhammad Bilal Zafar</a> (Ruhr University Bochum). I am also fortunate to closely collaborate with and receive guidance from <a href="https://lasharavichander.github.io/">Abhilasha Ravichander</a> (MPI-SWS), <a href="https://cs-people.bu.edu/evimaria/">Evimaria Terzi</a> (Boston University), <a href="https://mtoneva.com/">Mariya Toneva</a> (MPI-SWS). Before I joined MPI-SWS, I got my bachelor's degree in mathematics-physics from <a href="https://en.uestc.edu.cn/"> University of Electronic Science and Technology of China (UESTC)</a>.
 
-My research takes AI agents as objects of study, with a particular emphasis on LLM-based agents. 
-I investigate how internal parametric knowledge interacts with context, memory, and external tools to shape agents’ decisions and behavior.
+My research studies **how LLM-based agents learn, remember, and act**, with an emphasis on understanding the behavioral patterns underlying their capabilities and limitations. I investigate how internal parametric knowledge interacts with context, memory, and external tools to shape what agents recall, how they make decisions, and when they seek additional information.
+
+I use these insights to guide **when and how to intervene**: when an agent would benefit from a better harness—the context, memory, tools, and workflows surrounding the model—and when its limitations call for parameter updates. In the latter case, I study how the observed behavior can inform the choice of training data and learning algorithms. My broader goal is to connect a systematic understanding of agent behavior with the design of more reliable, interpretable, and human-centered AI systems.
 
 
 ---
